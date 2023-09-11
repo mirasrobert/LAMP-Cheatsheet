@@ -51,6 +51,11 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 7. **Install PHP and Required Extensions:**
     ```bash
     sudo apt install php libapache2-mod-php php-mysql php-common php-bcmath php-ctype php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml php-zip php-gd
+    ```
+    - If you want specific version of PHP like 7.4
+   ```bash
+   sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php7.4-common php7.4-bcmath php7.4-ctype php7.4-json php7.4-mbstring php7.4-openssl php7.4-pdo php7.4-tokenizer php7.4-xml php7.4-zip php7.4-gd
+
     
 8. **Configure Apache for Laravel:**
     - Create an Apache virtual host configuration for your Laravel app (e.g., /etc/apache2/sites-available/laravel_example_app.conf).
