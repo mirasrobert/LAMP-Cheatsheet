@@ -71,7 +71,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```
     
     ```apache
-    # APACHE CONFIG [https://laravel.com/docs/7.x/deployment]
+    # APACHE CONFIG FOR LARAVEL [https://laravel.com/docs/7.x/deployment]
     <VirtualHost *:80>
         ServerAdmin webmaster@your_domain.com
         ServerName your_droplet_ip_address
@@ -90,14 +90,14 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     
     ```apache
       # From Digital Ocean Snippet [https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04]
-      <VirtualHost *:80>
-          ServerAdmin webmaster@localhost
-          ServerName your_domain
-          ServerAlias www.your_domain
-          DocumentRoot /var/www/laravel_example_app/public
-          ErrorLog ${APACHE_LOG_DIR}/error.log
-          CustomLog ${APACHE_LOG_DIR}/access.log combined
-      </VirtualHost>
+    <VirtualHost *:80>
+       ServerAdmin webmaster@localhost
+       ServerName your_domain
+       ServerAlias www.your_domain
+       DocumentRoot /var/www/laravel_example_app/public
+       ErrorLog ${APACHE_LOG_DIR}/error.log
+       CustomLog ${APACHE_LOG_DIR}/access.log combined
+    </VirtualHost>
     ```
     
 11. **Enable the Apache Configuration:**
