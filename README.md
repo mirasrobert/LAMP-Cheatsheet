@@ -106,7 +106,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     sudo a2ensite laravel_example_app.conf
     ```
 
-    - Disable the default virtual host (if needed):
+    - Disable the default virtual host (if the ServerName in VHOST in your IP ADDRESS):
     ```bash
     sudo a2dissite 000-default.conf
     ```
@@ -115,6 +115,9 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```bash
     sudo apache2ctl configtest
     ```
+13. **Finally, reload Apache so these changes take effect:
+   ```bash
+   sudo systemctl reload apache2
 
 ## Deploy Laravel Application
 
