@@ -10,7 +10,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 - [x] A Laravel application hosted on GitHub (e.g., "laravel_example_app").
 
 ## Note:
-   - We have an application called "laravel_example_app". Change the "laravel_example_app" for your website name or Laravel app name. 
+   - We have an application called "laravel_example_app". Change the "laravel_example_app" for your website/domain name or Laravel app name. 
 
 ## Initial Server Setup
 
