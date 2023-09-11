@@ -71,7 +71,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     # APACHE CONFIG [https://laravel.com/docs/7.x/deployment]
     <VirtualHost *:80>
         ServerAdmin webmaster@your_domain.com
-        ServerName your_domain.com
+        ServerName your_droplet_ip_address
         DocumentRoot /var/www/laravel_example_app/public
 
         ErrorLog ${APACHE_LOG_DIR}/error.log
