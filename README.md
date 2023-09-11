@@ -94,7 +94,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
           ServerAdmin webmaster@localhost
           ServerName your_domain
           ServerAlias www.your_domain
-          DocumentRoot /var/www/<laravel_example_app>/public
+          DocumentRoot /var/www/laravel_example_app/public
           ErrorLog ${APACHE_LOG_DIR}/error.log
           CustomLog ${APACHE_LOG_DIR}/access.log combined
       </VirtualHost>
