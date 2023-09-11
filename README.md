@@ -49,6 +49,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     mysql -u root -p # Access mysql
     
 7. **Install PHP and Required Extensions:**
+    - Latest Version
     ```bash
     sudo apt install php libapache2-mod-php php-mysql php-common php-bcmath php-ctype php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml php-zip php-gd
     ```
@@ -57,11 +58,11 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
    sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php7.4-common php7.4-bcmath php7.4-ctype php7.4-json php7.4-mbstring php7.4-openssl php7.4-pdo php7.4-tokenizer php7.4-xml php7.4-zip php7.4-gd
    ```
    
-8. **Configure Apache for Laravel:**
+9. **Configure Apache for Laravel:**
     - Create an Apache virtual host configuration for your Laravel app (e.g., /etc/apache2/sites-available/laravel_example_app.conf).
     - Configure the virtual host to use PHP for processing PHP files.
     
-9. **Create virtual host config**
+10. **Create virtual host config**
     ```bash
     sudo nano /etc/apache2/sites-available/laravel_example_app.conf
     ```
@@ -84,7 +85,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     </VirtualHost>
     ```
     
-10. **Enable the Apache Configuration:**
+11. **Enable the Apache Configuration:**
     - Enable the virtual host:
     ```bash
     sudo a2ensite laravel_example_app.conf
@@ -95,7 +96,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     sudo a2dissite 000-default.conf
     ```
 
-11. **Test Apache Configuration:**
+12. **Test Apache Configuration:**
     ```bash
     sudo apache2ctl configtest
     ```
