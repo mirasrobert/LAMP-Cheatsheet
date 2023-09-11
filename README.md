@@ -85,7 +85,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     </VirtualHost>
     ```
     
-    ```apache-from-digital-ocean-snippet
+    ```apache
       <VirtualHost *:80>
           ServerAdmin webmaster@localhost
           ServerName your_domain
