@@ -55,8 +55,8 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     - If you want specific version of PHP like 7.4
    ```bash
    sudo apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php7.4-common php7.4-bcmath php7.4-ctype php7.4-json php7.4-mbstring php7.4-openssl php7.4-pdo php7.4-tokenizer php7.4-xml php7.4-zip php7.4-gd
-
-    
+   ```
+   
 8. **Configure Apache for Laravel:**
     - Create an Apache virtual host configuration for your Laravel app (e.g., /etc/apache2/sites-available/laravel_example_app.conf).
     - Configure the virtual host to use PHP for processing PHP files.
