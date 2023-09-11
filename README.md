@@ -127,20 +127,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```bash
     git clone https://github.com/yourusername/laravel_example_app.git /var/www/laravel_example_app
     ```
-
-2. **Install Composer**    
-    - Follow the instructions at [https://getcomposer.org/download/](https://getcomposer.org/download/) to install Composer.
-
-3. **Install Composer Dependencies**
-    ```bash
-    cd /var/www/laravel_example_app
-   composer install --no-interaction --prefer-dist
-
-4. **Generate Laravel Application Key:**
-    ```bash
-    php artisan key:generate
-
-5. **Set Permissions:**
+2. **Set Permissions:**
     - Ensure proper file permissions for Laravel Application
     ```bash
     sudo chown -R $USER:$USER /var/www/laravel_example_app
@@ -149,8 +136,19 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 
     sudo chown -R www-data:www-data /var/www/laravel_example_app/storage
     sudo chmod -R 775 /var/www/laravel_example_app/storage
+    ```
 
+3. **Install Composer**    
+    - Follow the instructions at [https://getcomposer.org/download/](https://getcomposer.org/download/) to install Composer.
 
+4. **Install Composer Dependencies**
+    ```bash
+    cd /var/www/laravel_example_app
+   composer install --no-interaction --prefer-dist
+
+5. **Generate Laravel Application Key:**
+    ```bash
+    php artisan key:generate
 
 6. **Access MySQL:**
     ```bash
