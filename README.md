@@ -86,6 +86,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```
     
     ```apache
+      # From Digital Ocean Snippet [https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04]
       <VirtualHost *:80>
           ServerAdmin webmaster@localhost
           ServerName your_domain
