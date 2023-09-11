@@ -115,6 +115,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```bash
     sudo apache2ctl configtest
     ```
+    
 13. **Finally, reload Apache so these changes take effect:
    ```bash
    sudo systemctl reload apache2
