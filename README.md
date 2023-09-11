@@ -147,6 +147,10 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     sudo chmod -R 755 /var/www/laravel_example_app
     sudo chmod -R 755 /var/www/laravel_example_app/storage
 
+    sudo chown -R www-data:www-data /var/www/laravel_example_app/storage
+    sudo chmod -R 775 /var/www/laravel_example_app/storage
+
+
 
 6. **Access MySQL:**
     ```bash
