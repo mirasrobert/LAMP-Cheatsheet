@@ -163,7 +163,26 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```bash
     cd /var/www/laravel_example_app
     nano .env
+    ```
 
+    ```bash
+   # 1. If you are using root and have not created a new user.
+    DB_CONNECTION=mysql
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_DATABASE=YOUR_CREATED_DATABASE
+    DB_USERNAME=root
+    DB_PASSWORD=your_password
+    
+    # 2. If you created a new user and database 
+    DB_CONNECTION=mysql
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_DATABASE=laravel_example_app_db
+    DB_USERNAME=laravel_user
+    DB_PASSWORD=your_password
+    ```
+    
     
 10. **Migrate and Seed Database (Laravel):**
     ```bash
